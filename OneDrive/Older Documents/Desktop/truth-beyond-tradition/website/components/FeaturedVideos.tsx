@@ -38,7 +38,7 @@ export default function FeaturedVideos() {
     <section className="py-16 px-4 bg-black">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold mb-8 text-center gradient-text">
-          Featured Videos
+          Featured Videos <span className="text-lg text-gray-400">(coming soon)</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {videos.map((video) => (
